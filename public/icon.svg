@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0284c7" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#chatGrad)" filter="url(#shadow)" />
+  <!-- Main chat bubble -->
+  <path d="M140 160 C 140 133.5, 161.5 112, 188 112 L 324 112 C 350.5 112, 372 133.5, 372 160 L 372 268 C 372 294.5, 350.5 316, 324 316 L 248 316 L 180 372 L 180 316 L 188 316 C 161.5 316, 140 294.5, 140 268 Z" fill="#ffffff" />
+  <!-- Chat speech lines/dots -->
+  <circle cx="216" cy="214" r="16" fill="#0284c7" />
+  <circle cx="256" cy="214" r="16" fill="#0284c7" />
+  <circle cx="296" cy="214" r="16" fill="#0284c7" />
+</svg>

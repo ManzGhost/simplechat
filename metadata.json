@@ -1,0 +1,6 @@
+{
+  "name": "SimpleChat",
+  "description": "A complete full-stack real-time chat application with authentication, online presence, and private messaging.",
+  "requestFramePermissions": ["camera", "microphone", "display-capture"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
